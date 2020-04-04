@@ -7,11 +7,11 @@ import { RadarComponent } from './radar/radar.component';
 
 
 const routes: Routes = [
-  {path:'', component:LineComponent},
-  {path:'line', component:LineComponent},
-  {path:'bar', component:BarComponent},
-  {path:'pie', component:PieComponent},
-  {path:'radar', component:RadarComponent},
+  // {path:'', component:LineComponent},
+  // {path:'line', component:LineComponent},
+  // {path:'bar', component:BarComponent},
+  // {path:'pie', component:PieComponent},
+  // {path:'radar', component:RadarComponent},
 ];
 
 @NgModule({
