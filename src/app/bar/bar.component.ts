@@ -7,11 +7,11 @@ import Chart from 'chart.js'
   styleUrls: ['./bar.component.css']
 })
 export class BarComponent implements OnInit {
-
+barchart:any;
   constructor() { }
 
   ngOnInit() {
-    let myChart = new Chart('bar', {
+    this.barchart = new Chart('bar', {
       type: 'bar',
       data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -47,6 +47,7 @@ export class BarComponent implements OnInit {
         }
       }
     });
+    
   }
 
 }
